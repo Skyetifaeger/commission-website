@@ -5,7 +5,7 @@
   "author": "Gomah",
   "private": true,
   "scripts": {
-    "dev": "nuxt-ts -o",
+    "dev": "CHOKIDAR_USEPOLLING=true nuxt-ts -o",
     "build": "nuxt-ts build",
     "start": " nuxt-ts start",
     "generate": "nuxt-ts generate",
